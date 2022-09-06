@@ -1,4 +1,4 @@
-package com.example.testpipeline.feature
+package com.example.testpipeline.feature.food
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData

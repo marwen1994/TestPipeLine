@@ -1,10 +1,6 @@
 package com.example.testpipeline
 
-import androidx.lifecycle.ViewModelProvider
-import com.example.testpipeline.data.BuildService
-import com.example.testpipeline.data.MainRepo
-import com.example.testpipeline.feature.MainViewModel
-import com.example.testpipeline.feature.MyViewModelFactory
+import com.example.testpipeline.feature.food.MainViewModel
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -17,9 +13,6 @@ import org.junit.Assert.*
 class ExampleUnitTest {
 
     lateinit var viewModel: MainViewModel
-
-
-
 
     @Test
     fun addition_isCorrect() {

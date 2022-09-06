@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_thinkitlogoimage_2.xml" value="0.286" />
+        <entry key="app/src/main/res/layout/activity_login_register.xml" value="0.2452545166015625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.39540816326530615" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/row.xml" value="0.2788650512695312" />
       </map>
     </option>
