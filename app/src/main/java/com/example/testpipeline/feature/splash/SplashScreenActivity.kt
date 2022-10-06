@@ -1,10 +1,10 @@
 package com.example.testpipeline.feature.splash
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.testpipeline.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.testpipeline.databinding.ActivitySplashScreenBinding
+import com.example.testpipeline.feature.food.MainActivity
 import com.example.testpipeline.feature.login.LoginRegisterActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

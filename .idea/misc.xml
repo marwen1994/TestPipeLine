@@ -3,12 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable-v24/ic_trash.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_thinkitlogoimage_2.xml" value="0.286" />
-        <entry key="app/src/main/res/layout/activity_login_register.xml" value="0.2452545166015625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.39540816326530615" />
+        <entry key="app/src/main/res/drawable/ic_vector.xml" value="0.2115" />
+        <entry key="app/src/main/res/layout/activity_login_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/activity_sub_category.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/category_row.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/favorite_row_item.xml" value="0.4418212478920742" />
+        <entry key="app/src/main/res/layout/fragment_category_food.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_favorite_food.xml" value="0.14311043566362716" />
+        <entry key="app/src/main/res/layout/fragment_list_food.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/row.xml" value="0.2788650512695312" />
+        <entry key="app/src/main/res/layout/sub_cat_row.xml" value="0.1" />
       </map>
     </option>
   </component>

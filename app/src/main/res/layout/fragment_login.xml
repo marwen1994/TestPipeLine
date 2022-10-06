@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:lineSpacingExtra="1dp"
-        android:text="@string/register_txt"
+        android:text="@string/login_txt"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,41 +74,27 @@
         app:layout_constraintTop_toBottomOf="@+id/email_input"
         tools:ignore="Autofill,TextFields" />
 
-    <EditText
-        android:id="@+id/confirm_password_input"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:drawableStart="@drawable/lock"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:layout_marginTop="30dp"
-        android:hint="@string/txt_hint_confirm_pwd"
-        app:layout_constraintEnd_toStartOf="@+id/guideline_end"
-        app:layout_constraintStart_toStartOf="@+id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@+id/password_input"
-        tools:ignore="Autofill,TextFields" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login_action"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:text="@string/txt_Register"
+        android:text="@string/txt_login"
         android:background="@color/black"
         android:textColor="@color/white"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
         app:layout_constraintStart_toStartOf="@+id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@+id/confirm_password_input" />
+        app:layout_constraintTop_toBottomOf="@+id/password_input" />
 
     <TextView
-        android:id="@+id/navigate_to_login"
+        android:id="@+id/navigate_to_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt_navigate_to_login"
+        android:text="@string/txt_navigate_to_register"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
         app:layout_constraintStart_toStartOf="@+id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/login_action" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

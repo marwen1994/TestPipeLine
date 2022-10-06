@@ -1,6 +1,10 @@
 package com.example.testpipeline.data
 
-class MainRepo  (private val retrofitService: ApiInterfaces) {
+import com.example.testpipeline.data.retrofit.ApiInterfaces
 
-        suspend fun getAllMovies() = retrofitService.getAllCategories()
+class MainRepo  (private val retrofitService: ApiInterfaces?) {
+
+     suspend fun getAllCategories() = retrofitService?.getAllCategories()
+     suspend fun getSubCategoryList (name: String) = retrofitService?.getSubCategoryFood(name)
+
 }

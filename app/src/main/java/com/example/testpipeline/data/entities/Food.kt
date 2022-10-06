@@ -1,4 +1,4 @@
-package com.example.testpipeline.data
+package com.example.testpipeline.data.entities
 
 class Food {
     var idCategory : String? = null

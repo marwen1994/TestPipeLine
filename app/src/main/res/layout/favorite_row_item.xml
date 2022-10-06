@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <carbon.widget.ImageView
+        android:id="@+id/category"
+        app:layout_constraintHeight_percent="0.7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:carbon_cornerRadius="5dp"
+        app:carbon_rippleRadius="5dp"
+        app:carbon_strokeWidth="1dp"
+        app:carbon_stroke="@color/gray_1"
+        app:carbon_rippleColor="@color/gray_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <carbon.widget.ImageView
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        app:carbon_cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/category"
+        app:srcCompat="@drawable/ic_trash"
+        android:contentDescription="@string/app_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

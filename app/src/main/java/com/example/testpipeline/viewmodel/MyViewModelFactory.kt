@@ -1,4 +1,4 @@
-package com.example.testpipeline.feature
+package com.example.testpipeline.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
